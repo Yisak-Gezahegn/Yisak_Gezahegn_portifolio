@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - ETHIO FOOD</title>
+    <link rel="stylesheet" href="all.css">
+    
+</head>
+<body>
+    
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-utensils"></i>
+                ETHIO FOOD
+            </a>
+            
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="restaurants.html">Restaurants</a></li>
+                    <li><a href="how-it-works.html">How It Works</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="auth-buttons">
+                <a href="login.html" class="btn">Login</a>
+            </div>
+        </div>
+    </header>
+
+    
+    <section class="auth-section">
+        <div class="auth-container">
+            
+            <div class="auth-welcome">
+                <h1>Welcome to ETHIO FOOD</h1>
+                <p>Order delicious Ethiopian food from the best restaurants in your area and have it delivered to your doorstep.</p>
+                
+                <ul class="auth-features">
+                    <li>Fast delivery in 30-40 minutes</li>
+                    <li>100+ restaurants to choose from</li>
+                    <li>Secure payment options</li>
+                    <li>Real-time order tracking</li>
+                </ul>
+            </div>
+            
+           
+            <div class="auth-forms">
+                <div class="form-container">
+                    
+                    <div class="form-toggle">
+                        <button class="toggle-btn active" data-form="login">Login</button>
+                        <button class="toggle-btn" data-form="signup">Sign Up</button>
+                    </div>
+                    
+                   
+                    <form class="auth-form active" id="login-form">
+                        <div class="form-group">
+                            <label class="form-label" for="login-email">Email Address</label>
+                            <input type="email" id="login-email" class="form-input" placeholder="Enter your email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="login-password">Password</label>
+                            <input type="password" id="login-password" class="form-input" placeholder="Enter your password" required>
+                        </div>
+                        
+                        <div class="form-options">
+                            <div class="remember-me">
+                                <input type="checkbox" id="remember-me">
+                                <label for="remember-me">Remember me</label>
+                            </div>
+                            <a href="forgot-password.html" class="forgot-password">Forgot Password?</a>
+                        </div>
+                        
+                        <button type="submit" class="btn">Login</button>
+                        
+                        <div class="divider">
+                            <span>Or continue with</span>
+                        </div>
+                        
+                        <div class="social-login">
+                            <button type="button" class="social-btn google">
+                                <i class="fab fa-google"></i>
+                                Google
+                            </button>
+                            <button type="button" class="social-btn facebook">
+                                <i class="fab fa-facebook-f"></i>
+                                Facebook
+                            </button>
+                        </div>
+                        
+                        <div class="form-footer">
+                            Don't have an account? <a href="#" class="switch-form" data-form="signup">Sign up here</a>
+                        </div>
+                    </form>
+                    
+                    
+                    <form class="auth-form" id="signup-form">
+                        <div class="form-group">
+                            <label class="form-label" for="signup-name">Full Name</label>
+                            <input type="text" id="signup-name" class="form-input" placeholder="Enter your full name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="signup-email">Email Address</label>
+                            <input type="email" id="signup-email" class="form-input" placeholder="Enter your email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="signup-phone">Phone Number</label>
+                            <input type="tel" id="signup-phone" class="form-input" placeholder="Enter your phone number" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="signup-password">Password</label>
+                            <input type="password" id="signup-password" class="form-input" placeholder="Create a password" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="signup-confirm">Confirm Password</label>
+                            <input type="password" id="signup-confirm" class="form-input" placeholder="Confirm your password" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="remember-me">
+                                <input type="checkbox" id="terms" required>
+                                <label for="terms">I agree to the <a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a></label>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn">Create Account</button>
+                        
+                        <div class="divider">
+                            <span>Or continue with</span>
+                        </div>
+                        
+                        <div class="social-login">
+                            <button type="button" class="social-btn google">
+                                #&#xF1A0;
+                                Google
+                            </button>
+                            <button type="button" class="social-btn facebook">
+                                #&#xF09A;
+                                Facebook
+                            </button>
+                        </div>
+                        
+                        <div class="form-footer">
+                            Already have an account? <a href="#" class="switch-form" data-form="login">Login here</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>ETHIO FOOD</h3>
+                    <p>Delivering authentic Ethiopian cuisine to your doorstep. Fast, reliable, and delicious.</p>
+                    <div class="social-links">
+                        <a href="#"><img src="../image/facebook.svg" alt="#"></a>
+                        <a href="#"><img src="../image/instagram.svg" alt="#"></a>
+                        <a href="#"><img src="../image/telegram.svg" alt="#"></a>
+                        <a href="#"><img src="../image/twitter.svg" alt="#"></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="restaurants.html">Restaurants</a></li>
+                        <li><a href="how-it-works.html">How It Works</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">&#127835 Injera & Wat</a></li>
+                        <li><a href="#">&#129367 Vegetarian</a></li>
+                        <li><a href="#">&#127831 Meat Dishes</a></li>
+                        <li><a href="#">&#127828 Humburger</a></li>
+                        <li><a href="#">&#127829 Pizza</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                   <ul>
+                        <li>📍 Addis Ababa, Ethiopia</li>
+                        <li>☎ +25 973 391 342</li>
+                        <li>✉ info@ethiofood.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 ETHIO FOOD Delivery Service. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        
+        document.querySelector('.mobile-menu').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('active');
+        });
+
+       
+        const toggleButtons = document.querySelectorAll('.toggle-btn');
+        const authForms = document.querySelectorAll('.auth-form');
+        const switchFormLinks = document.querySelectorAll('.switch-form');
+
+        function switchForm(formType) {
+           
+            toggleButtons.forEach(button => {
+                if (button.dataset.form === formType) {
+                    button.classList.add('active');
+                } else {
+                    button.classList.remove('active');
+                }
+            });
+            
+            
+            authForms.forEach(form => {
+                if (form.id === `${formType}-form`) {
+                    form.classList.add('active');
+                } else {
+                    form.classList.remove('active');
+                }
+            });
+        }
+
+        
+        toggleButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                switchForm(this.dataset.form);
+            });
+        });
+
+        
+        switchFormLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                switchForm(this.dataset.form);
+            });
+        });
+
+        
+        document.getElementById('login-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = document.getElementById('login-email').value;
+            const password = document.getElementById('login-password').value;
+            
+            
+            alert(`Login attempted with:\nEmail: ${email}\nPassword: ${password}\n\nIn a real application, this would authenticate the user.`);
+        });
+
+        document.getElementById('signup-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('signup-name').value;
+            const email = document.getElementById('signup-email').value;
+            const phone = document.getElementById('signup-phone').value;
+            const password = document.getElementById('signup-password').value;
+            
+          
+            alert(`Sign up attempted with:\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nPassword: ${password}\n\nIn a real application, this would create a new user account.`);
+        });
+
+        
+        document.querySelectorAll('.social-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                const provider = this.classList.contains('google') ? 'Google' : 'Facebook';
+                alert(`In a real application, this would redirect to ${provider} authentication.`);
+            });
+        });
+    </script>
+</body>
+</html>

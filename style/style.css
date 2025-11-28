@@ -1,0 +1,110 @@
+/* Custom CSS: style.css */
+
+/* --- 1. Global Variables & Colors --- */
+:root {
+    /* Define your primary color here (adjust to your preference!) */
+    --primary-color: #3498db; /* A strong, clean blue */
+    --primary-color-hover: #2980b9;
+    --heading-font: 'Arial', sans-serif;
+    --body-font: 'Helvetica', sans-serif;
+    --section-bg-light: #f9f9f9;
+}
+
+body {
+    font-family: var(--body-font);
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2, h3, .display-3, .display-5 {
+    font-family: var(--heading-font);
+    font-weight: 700;
+}
+p{
+  color: brown;
+  font-size: medium;
+  font-weight: 200;
+}
+
+/* --- 2. Utility & Spacing --- */
+.section-padding {
+    padding: 80px 0;
+    background-color:#eff2ee ; /* Consistent vertical spacing for all sections */
+}
+
+/* --- 3. Header/Hero Section --- */
+#hero {
+    /* Ensure the content is visible below the fixed navbar */
+    padding-top: 56px; 
+    background-color: #e8f4e1;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 5px solid var(--primary-color);
+}
+
+/* --- 4. Customizing Bootstrap Components --- */
+/* Custom Button Look */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color-hover);
+    border-color: var(--primary-color-hover);
+}
+
+/* Custom Navbar Links */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+/* Social Media Icons */
+.btn-social {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-social:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* --- 5. Project Card Enhancements --- */
+.project-card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* --- 6. Footer Styling --- */
+footer {
+    background-color: #2c3e50 !important; /* A darker, professional color */
+}
+

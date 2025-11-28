@@ -1,0 +1,66 @@
+ETHIO FOOD DELIVERY SERVICE
+The Food delivery and order project website
+
+  users***********************************************************************
+    this website has three users 
+     1.The developers: they are owners of the website that they can mentaine,check,change,manage  all things inside website and also they can collect some money (5%) from all service used in this website from the customers of food delivery and resturant owners,the developers can grant privilage to give and remove a privilage to resturant owners to change their menu to add food and drop food.
+     2.The resturant owners: they are also service providers to customers to order food and they are owners of their cafe menu page in the website they have privilage to add or drop a food from the menu bar and incrase or decrease the food price given from developers.the resturant owners the most users of the website they accept or recive an order and collect price of the food.
+     3.The customers: they are users of this website to order a food and see the menu and check the menu to choice from all given resturants.they are no privilage they can only see menu bar search food,giving order in their chosen time and date, send money for that service and food.
+  The website design**********************************************************
+    this website is build using three programming languages
+     1.HTML:to build main blocks, structures, components,frame works to arrange the pages in side the website. to insert all photos, resourse materials we use the html language.
+     2.CSS:to give a responsive in diffrent devices(phone,computer,large screen tv,tablet) and beautiful website page and to arrange all components in their specific place and to manage the images size shape and price place this language make diffrent interface for the three website users.
+     3.JAVASCRIPT:this language make the website interactive to users it can give a respons in all user actions for example to accept or reject their order.it makes the website as very helpful recommend make all things are responsable.
+  Folders*********************************************************************
+    The main folder name is group project
+     >styling or css folder to stor css file 
+     >scripting folder to store java script file
+     >Resourse folder to store all resourse and matterials like photos...
+     the Html and design text files are stored in the main folder group project
+
+
+THE MAIN DESIGN****************************************************************
+group_project/
+│
+├── index.html               → Homepage (welcome, top restaurants, login links)
+├── about.html               → About website (mission, contact)
+├── contact.html             → Contact form
+│
+├── customer/
+│   ├── customer_home.html
+│   ├── cart.html
+│   ├── orders.html
+│   └── profile.html
+│
+├── restaurant/
+│   ├── dashboard.html
+│   ├── menu.html
+│   ├── orders.html
+│   └── settings.html
+│
+├── developer/
+│   ├── admin_dashboard.html
+│   ├── manage_users.html
+│   ├── manage_restaurants.html
+│   └── reports.html
+│
+├── styling/
+│   └── style.css
+│
+├── scripting/
+│   └── main.js
+│
+└── resources/
+    ├── images/
+    ├── icons/
+    └── logo/
+
+
+
+Description about all phase*****************************************************
+| Phase   | Description            | Tools                         |
+| ------- | ---------------------- | ----------------------------- |
+| Phase 1 | Design static pages    | HTML, CSS                     |
+| Phase 2 | Add interactivity      | JS (menu toggle, order popup) |
+| Phase 3 | Payment & Login System | APIs or mock data             |
+| Phase 4 | Testing & Deployment   | GitHub Pages / Netlify        |
