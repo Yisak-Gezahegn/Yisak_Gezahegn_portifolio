@@ -269,43 +269,52 @@
                     <div class="col-lg-6">
                         <div class="contact-form-container">
                             <h3>Send me a message</h3>
-                            <form class="contact-form">
-                                <div class="mb-3">
-                                    <input
-                                        type="text"
-                                        class="form-control"
-                                        placeholder="Your Name"
-                                        required
-                                    />
-                                </div>
-                                <div class="mb-3">
-                                    <input
-                                        type="email"
-                                        class="form-control"
-                                        placeholder="Your Email"
-                                        required
-                                    />
-                                </div>
-                                <div class="mb-3">
-                                    <input
-                                        type="text"
-                                        class="form-control"
-                                        placeholder="Subject"
-                                        required
-                                    />
-                                </div>
-                                <div class="mb-3">
-                                    <textarea
-                                        class="form-control"
-                                        placeholder="Your Message"
-                                        rows="5"
-                                        required
-                                    ></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary w-100">
-                                    Send Message
-                                </button>
-                            </form>
+                            <form action="https://formspree.io/f/mojvobpr" method="POST" class="contact-form">
+    
+    <div class="mb-3">
+        <input 
+            type="text" 
+            name="name" 
+            class="form-control" 
+            placeholder="Your Name" 
+            required 
+        />
+    </div>
+
+    <div class="mb-3">
+        <input 
+            type="email" 
+            name="email" 
+            class="form-control" 
+            placeholder="Your Email" 
+            required 
+        />
+    </div>
+
+    <div class="mb-3">
+        <input 
+            type="text" 
+            name="subject" 
+            class="form-control" 
+            placeholder="Subject" 
+            required 
+        />
+    </div>
+
+    <div class="mb-3">
+        <textarea 
+            name="message" 
+            class="form-control" 
+            placeholder="Your Message" 
+            rows="5" 
+            required
+        ></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100">
+        Send Message
+    </button>
+</form>
                         </div>
                     </div>
                 </div>
